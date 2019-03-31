@@ -19,8 +19,7 @@ Before starting, make sure your computer has up-to-date versions of the followin
 6. Run the code in node with `npm start`
 
 
-Example Usage:
-### inputs:
+Example inputs:
 * 2015-12-25
 * 1450137600
 
