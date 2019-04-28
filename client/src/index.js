@@ -14,7 +14,6 @@ class NameForm extends React.Component {
 
   handleChange (event) {
     this.setState({ value: event.target.value })
-    console.log(this.state.value)
   }
 
   handleSubmit (event) {
@@ -27,7 +26,7 @@ class NameForm extends React.Component {
     axios.get('http://localhost:3001/api/timestamp/' + value)
       // .then(data => data.json())
       .then(res => {
-        if (res.data !== 'Invalid Date') { this.setState({ unix: res.data.unix, utc: res.data.utc }) } else { this.setState({ showName: false, showError: true }) }
+        if (res.data !== 'Invalid Date') { this.setStateFR({ unix: res.data.unix, utc: res.data.utc }) } else { this.setState({ showName: false, showError: true }) }
       })
   }
   render () {
