@@ -1,6 +1,6 @@
 # simpletimeconverter
 
-A full stack application developed with Node.js & express.js framework at backend and react.js at frontend which converts the date to UTC
+A full stack application developed with Node.js & express.js framework and react.js which converts the date to UTC
 and epoch format and vice versa.
 
 Getting set up :+1:
